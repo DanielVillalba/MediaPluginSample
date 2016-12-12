@@ -54,6 +54,14 @@
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
+    <Reference Include="Octane.Xam.VideoPlayer, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Octane.Xam.VideoPlayer.1.2.1.0\lib\MonoAndroid10\Octane.Xam.VideoPlayer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Octane.Xam.VideoPlayer.Android, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Octane.Xam.VideoPlayer.1.2.1.0\lib\MonoAndroid10\Octane.Xam.VideoPlayer.Android.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Plugin.CurrentActivity, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Plugin.CurrentActivity.1.0.1\lib\MonoAndroid10\Plugin.CurrentActivity.dll</HintPath>
       <Private>True</Private>
