@@ -4,8 +4,11 @@
              xmlns:local="clr-namespace:MediaPluginSample"
              x:Class="MediaPluginSample.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <StackLayout Orientation="Vertical">
+    <Button Text="Take Pic"
+            x:Name="takePhoto"/>
+    <Image x:Name="image"/>
+    
+  </StackLayout>
 
 </ContentPage>
